@@ -1,0 +1,23 @@
+@startuml
+package lsp {
+  object lsp.buf_attach_client
+  package _meta{
+    class ImplementationsParams
+    class Location
+    class Positions
+    class LocationOpts
+    class SymbolTag
+    note right: Name of the symbol, 
+  }
+  package buf {
+    object hover
+    object definition
+    object declaration
+    object implementatio
+    object format_hierarchy_item
+
+  }
+} 
+note right of lsp: Creates a bunch of 'classes'
+note right of lsp: Found in the lsp runtime / vim
+@enduml
